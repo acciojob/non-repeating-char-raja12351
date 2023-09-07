@@ -16,6 +16,7 @@ if(!pre){
         return(str.charAt(str.length-1));
     }
 }
+return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
