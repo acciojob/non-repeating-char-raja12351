@@ -1,5 +1,9 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
+let sort = (str) =>{
+    return str.split("").sort().join("");
+}
+str = sort(str);
  let pre = false;
 for(let i=1;i<str.length-1;i++){
     // console.log(str.charAt(i) + " " + str.charAt(i+1));
